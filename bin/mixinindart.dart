@@ -1,5 +1,8 @@
 import 'package:mixinindart/mixinindart.dart' as mixinindart;
 
+import 'Musician.dart';
+
 void main() {
-  print('Hello world: ${mixinindart.calculate()}!');
+  var yourBand = Musician();
+  yourBand.perform();
 }
