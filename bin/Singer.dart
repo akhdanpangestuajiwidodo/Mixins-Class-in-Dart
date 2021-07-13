@@ -2,7 +2,7 @@ import 'Performer.dart';
 
 mixin Singer implements Performer{
   @override
-  void Perform() {
+  void perform() {
     print('Singer');
   }
 

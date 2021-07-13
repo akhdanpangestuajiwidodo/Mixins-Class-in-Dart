@@ -1,3 +1,3 @@
 abstract class Performer{
-  void Perform();
+  void perform();
 }
