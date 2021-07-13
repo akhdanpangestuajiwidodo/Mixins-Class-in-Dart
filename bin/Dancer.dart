@@ -1,6 +1,6 @@
 import 'Performer.dart';
 
-class Dancer extends Performer{
+mixin Dancer implements Performer{
   @override
   void Perform() {
     print('Dancing');
